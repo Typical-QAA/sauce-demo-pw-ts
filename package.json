@@ -1,0 +1,30 @@
+{
+  "name": "sauce-demo-pw-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ci:test": "npx playwright test --config ./environment/playwright-configs/base-ci.config.ts",
+    "ci:test:web": "npx playwright test --project web --config ./environment/playwright-configs/base-ci.config.ts",
+    "test": "npx playwright test",
+    "test:web": "npx playwright test --project web",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report playwright-report/html/local",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Typical-QAA",
+    "url": "https://github.com/Typical-QAA"
+  },
+  "license": "MIT",
+  "description": "Saucedemo test automation demo framework using Playwright + TypeScript",
+  "devDependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10",
+    "allure-playwright": "^3.4.5",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}
