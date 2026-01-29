@@ -31,7 +31,7 @@ export default defineConfig({
       name: 'web',
       testDir: path.resolve(__dirname, '../../tests'),
       testMatch: '**/*.spec.ts',
-      use: { ...devices['Desktop Chrome'], baseURL: process.env.PW_BASE_WEB_URL || 'https://www.saucedemo.com' }
+      use: { ...devices['Desktop Chrome'], channel: 'chromium', baseURL: process.env.PW_BASE_WEB_URL || 'https://www.saucedemo.com' }
     }
   ]
 })
