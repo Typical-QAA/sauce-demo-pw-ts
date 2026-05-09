@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","714","Successful Login","web","Sat May 09 02:50:13 UTC 2026","passed","Sat May 09 02:50:14 UTC 2026","Web Automation Tests > With ""standard_user""","web-automation.spec.ts","",""
+"","1482","Failed Login with 'locked_out_user'","web","Sat May 09 02:50:08 UTC 2026","passed","Sat May 09 02:50:09 UTC 2026","Web Automation Tests","web-automation.spec.ts","",""
+"","1028","Complete successful user journey","web","Sat May 09 02:50:14 UTC 2026","passed","Sat May 09 02:50:15 UTC 2026","Web Automation Tests > With ""standard_user""","web-automation.spec.ts","",""
+"","786","Add a product to the cart","web","Sat May 09 02:50:14 UTC 2026","passed","Sat May 09 02:50:14 UTC 2026","Web Automation Tests > With ""standard_user""","web-automation.spec.ts","",""
+"","1375","Should not be able to proceed the checkout with empty shipping data","web","Sat May 09 02:50:11 UTC 2026","passed","Sat May 09 02:50:13 UTC 2026","Web Automation Tests > With ""standard_user""","web-automation.spec.ts","",""
+"","1753","Should not be able to login with empty or invalid data","web","Sat May 09 02:50:08 UTC 2026","passed","Sat May 09 02:50:10 UTC 2026","Web Automation Tests","web-automation.spec.ts","",""
+"","6326","Should not be able to proceed to checkout with empty cart","web","Sat May 09 02:50:11 UTC 2026","passed","Sat May 09 02:50:18 UTC 2026","Web Automation Tests > With ""standard_user""","web-automation.spec.ts","",""
